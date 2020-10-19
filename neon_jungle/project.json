@@ -1,0 +1,111 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"date_font_color" : 
+			{
+				"condition" : "show_date.value == 1",
+				"order" : 50,
+				"text" : "Date Font Color",
+				"type" : "color",
+				"value" : "0.5411764705882353 0.16862745098039217 0.8862745098039215"
+			},
+			"date_font_scale" : 
+			{
+				"condition" : "show_date.value == 1",
+				"fraction" : false,
+				"max" : 10,
+				"min" : 1,
+				"order" : 60,
+				"text" : "Date Font Scale",
+				"type" : "slider",
+				"value" : 3
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.5411764705882353 0.16862745098039217 0.8862745098039215"
+			},
+			"show_date" : 
+			{
+				"order" : 40,
+				"text" : "Show Date",
+				"type" : "bool",
+				"value" : true
+			},
+			"show_time" : 
+			{
+				"order" : 10,
+				"text" : "Show Time",
+				"type" : "bool",
+				"value" : true
+			},
+			"time_date_glow_brightness" : 
+			{
+				"condition" : "show_time.value ==1 || show_date.value == 1",
+				"fraction" : false,
+				"max" : 10,
+				"min" : 1,
+				"order" : 70,
+				"text" : "Time/Date Glow Brightness",
+				"type" : "slider",
+				"value" : 5
+			},
+			"time_date_position_right" : 
+			{
+				"condition" : "show_time.value ==1 || show_date.value == 1",
+				"fraction" : false,
+				"max" : 10,
+				"min" : 1,
+				"order" : 90,
+				"text" : "Time/Date Position - Right",
+				"type" : "slider",
+				"value" : 3
+			},
+			"time_date_position_top" : 
+			{
+				"condition" : "show_time.value ==1 || show_date.value == 1",
+				"fraction" : false,
+				"max" : 10,
+				"min" : 1,
+				"order" : 80,
+				"text" : "Time/Date Position - Top",
+				"type" : "slider",
+				"value" : 2
+			},
+			"time_font_color" : 
+			{
+				"condition" : "show_time.value == 1",
+				"order" : 20,
+				"text" : "Time Font Color",
+				"type" : "color",
+				"value" : "0.5411764705882353 0.16862745098039217 0.8862745098039215"
+			},
+			"time_font_scale" : 
+			{
+				"condition" : "show_time.value == 1",
+				"fraction" : false,
+				"max" : 10,
+				"min" : 1,
+				"order" : 30,
+				"text" : "Time Font Scale",
+				"type" : "slider",
+				"value" : 4
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Nature" ],
+	"title" : "Neon Jungle",
+	"type" : "web",
+	"version" : 4,
+	"visibility" : "public",
+	"workshopid" : "2261624588",
+	"workshopurl" : "steam://url/CommunityFilePage/2261624588"
+}
